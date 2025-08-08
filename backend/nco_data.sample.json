@@ -1,93 +1,3966 @@
 [
   {
-    "nco_code": "7212.0100",
-    "title": "Welder, Gas",
-    "description": "Gas Welder joins metal parts by fusion welding process in which the edges of metals to be joined are heated to molten condition at temperature of around 3200 degree C by a gas flame.",
-    "synonyms": ["gas welder", "welding operator", "fusion welder", "गैस वेल्डर", "वेल्डिंग ऑपरेटर"],
-    "examples": ["joins metal parts", "uses gas flame", "fusion welding", "metalwork", "welding torch operator"]
+    "nco_code": "1111.0100",
+    "title": "Elected Official, Union Government",
+    "description": "Elected Official, Union Government is a managers occupation classified under NCO code 1111.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "civil service",
+      "public sector"
+    ],
+    "examples": [
+      "performing duties related to elected official, union government",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1111",
+      "unit_group": "1111.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "government",
+      "occupation",
+      "managers",
+      "official",
+      "elected",
+      "service",
+      "public",
+      "sector",
+      "civil",
+      "skill",
+      "under",
+      "union",
+      "code"
+    ],
+    "searchable_text": "elected official, union government civil service public sector elected official, union government is a managers occupation classified under nco code 1111.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to elected official, union government following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
   },
   {
-    "nco_code": "7231.0200",
-    "title": "Automotive Mechanic",
-    "description": "Automotive Mechanic repairs overhauls and services motor vehicles to keep them in good running condition. Examines vehicle to ascertain nature and location of defects either by running engine or driving vehicle on road.",
-    "synonyms": ["car mechanic", "automobile mechanic", "motor mechanic", "गाड़ी मैकेनिक", "मोटर मैकेनिक"],
-    "examples": ["repairs cars", "engine maintenance", "vehicle service", "diagnoses car problems", "auto repair"]
+    "nco_code": "1111.0200",
+    "title": "Elected Official, State Government",
+    "description": "Elected Official, State Government is a managers occupation classified under NCO code 1111.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "civil service",
+      "public sector"
+    ],
+    "examples": [
+      "performing duties related to elected official, state government",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1111",
+      "unit_group": "1111.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "government",
+      "occupation",
+      "managers",
+      "official",
+      "elected",
+      "service",
+      "public",
+      "sector",
+      "civil",
+      "skill",
+      "state",
+      "under",
+      "code"
+    ],
+    "searchable_text": "elected official, state government civil service public sector elected official, state government is a managers occupation classified under nco code 1111.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to elected official, state government following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
   },
   {
-    "nco_code": "7533.0101",
-    "title": "Tailor",
-    "description": "Tailor cuts, sews, alters, repairs garments like coats, suits, trousers, shirts and dresses according to customer specifications and measurements.",
-    "synonyms": ["master tailor", "dress maker", "दर्जी", "टेलर", "कपड़े सिलने वाला"],
-    "examples": ["stitches clothes", "alters garments", "takes measurements", "sewing", "custom clothing"]
+    "nco_code": "1111.0300",
+    "title": "Elected Official, Local Bodies",
+    "description": "Elected Official, Local Bodies is a managers occupation classified under NCO code 1111.0300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to elected official, local bodies",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1111",
+      "unit_group": "1111.0300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "government",
+      "occupation",
+      "managers",
+      "official",
+      "elected",
+      "bodies",
+      "local",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "elected official, local bodies  elected official, local bodies is a managers occupation classified under nco code 1111.0300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to elected official, local bodies following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
   },
   {
-    "nco_code": "7411.0100",
-    "title": "Electrician General",
-    "description": "Electrician General installs, maintains and repairs electrical machinery equipment and fittings in factories, workshops power house, business and residential premises etc.",
-    "synonyms": ["electrical fitter", "wireman", "इलेक्ट्रीशियन", "बिजली मिस्त्री", "वायरमैन"],
-    "examples": ["electrical wiring", "repairs electrical equipment", "installs switches", "power systems", "electrical maintenance"]
+    "nco_code": "1111.9900",
+    "title": "Legislators, Other",
+    "description": "Legislators, Other is a managers occupation classified under NCO code 1111.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to legislators, other",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1111",
+      "unit_group": "1111.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "legislators",
+      "classified",
+      "occupation",
+      "managers",
+      "position",
+      "level",
+      "other",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "legislators, other  legislators, other is a managers occupation classified under nco code 1111.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to legislators, other following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
   },
   {
-    "nco_code": "3221.0101",
-    "title": "Nurse, General",
-    "description": "Nurse, General provides nursing care to patients in hospital, nursing home or at home. Takes patient temperature, pulse, respiration and blood pressure, administers prescribed medicines.",
-    "synonyms": ["staff nurse", "registered nurse", "नर्स", "परिचारिका", "सेविका"],
-    "examples": ["patient care", "administers medicine", "medical assistance", "healthcare", "nursing duties"]
+    "nco_code": "1112.0100",
+    "title": "Administrative Official, Union Government",
+    "description": "Administrative Official, Union Government is a managers occupation classified under NCO code 1112.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "civil service",
+      "public sector"
+    ],
+    "examples": [
+      "performing duties related to administrative official, union government",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1112",
+      "unit_group": "1112.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "administrative",
+      "classified",
+      "government",
+      "occupation",
+      "managers",
+      "official",
+      "service",
+      "public",
+      "sector",
+      "civil",
+      "skill",
+      "under",
+      "union",
+      "code"
+    ],
+    "searchable_text": "administrative official, union government civil service public sector administrative official, union government is a managers occupation classified under nco code 1112.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to administrative official, union government following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
   },
   {
-    "nco_code": "4131.0100",
-    "title": "Data Entry Operator",
-    "description": "Data Entry Operator enters data into computer system from source documents using keyboard, optical scanner or data recorder. Verifies accuracy of data entered.",
-    "synonyms": ["computer operator", "data operator", "डेटा एंट्री ऑपरेटर", "कंप्यूटर ऑपरेटर"],
-    "examples": ["types data", "computer work", "data input", "keyboard operator", "office work"]
+    "nco_code": "1112.0200",
+    "title": "Diplomat",
+    "description": "Diplomat is a managers occupation classified under NCO code 1112.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to diplomat",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1112",
+      "unit_group": "1112.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "diplomat",
+      "involves",
+      "managers",
+      "position",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "diplomat  diplomat is a managers occupation classified under nco code 1112.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to diplomat following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 5.0
+    }
   },
   {
-    "nco_code": "2330.0100",
-    "title": "Teacher, Primary School",
-    "description": "Teacher, Primary School teaches one or more subjects to students at primary level and develops their knowledge and understanding of subjects through classroom teaching.",
-    "synonyms": ["elementary teacher", "primary teacher", "प्राथमिक शिक्षक", "अध्यापक", "टीचर"],
-    "examples": ["teaches children", "classroom teaching", "primary education", "lesson planning", "student instruction"]
+    "nco_code": "1112.0300",
+    "title": "Executive Officials, Union Government",
+    "description": "Executive Officials, Union Government is a managers occupation classified under NCO code 1112.0300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "officials, union government worker",
+      "civil service",
+      "officials, union government",
+      "public sector"
+    ],
+    "examples": [
+      "performing duties related to executive officials, union government",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1112",
+      "unit_group": "1112.0300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "government",
+      "occupation",
+      "executive",
+      "officials",
+      "managers",
+      "service",
+      "public",
+      "sector",
+      "worker",
+      "civil",
+      "skill",
+      "under",
+      "union",
+      "code"
+    ],
+    "searchable_text": "executive officials, union government officials, union government worker civil service officials, union government public sector executive officials, union government is a managers occupation classified under nco code 1112.0300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to executive officials, union government following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 10.0
+    }
   },
   {
-    "nco_code": "9211.0100",
-    "title": "Farm Worker",
-    "description": "Farm Worker performs variety of tasks on farms such as planting, cultivating, harvesting crops, and feeding livestock under supervision.",
-    "synonyms": ["agricultural worker", "field worker", "किसान", "खेत मजदूर", "कृषि श्रमिक"],
-    "examples": ["harvests crops", "plants seeds", "farm labor", "agriculture work", "field work"]
+    "nco_code": "1112.0400",
+    "title": "Administrative Official, State Government",
+    "description": "Administrative Official, State Government is a managers occupation classified under NCO code 1112.0400. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "civil service",
+      "public sector"
+    ],
+    "examples": [
+      "performing duties related to administrative official, state government",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1112",
+      "unit_group": "1112.0400",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "administrative",
+      "classified",
+      "government",
+      "occupation",
+      "managers",
+      "official",
+      "service",
+      "public",
+      "sector",
+      "civil",
+      "skill",
+      "state",
+      "under",
+      "code"
+    ],
+    "searchable_text": "administrative official, state government civil service public sector administrative official, state government is a managers occupation classified under nco code 1112.0400. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to administrative official, state government following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
   },
   {
-    "nco_code": "7115.0100",
-    "title": "Carpenter, General",
-    "description": "Carpenter, General makes, assembles, alters and repairs various types of wooden articles and structures such as doors, windows, furniture, roof trusses according to specifications.",
-    "synonyms": ["wood worker", "furniture maker", "बढ़ई", "काष्ठकार", "लकड़ी मिस्त्री"],
-    "examples": ["makes furniture", "woodwork", "builds cabinets", "carpentry", "wooden structures"]
+    "nco_code": "1112.0500",
+    "title": "Executive Official, State Government",
+    "description": "Executive Official, State Government is a managers occupation classified under NCO code 1112.0500. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "official, state government worker",
+      "civil service",
+      "official, state government",
+      "public sector"
+    ],
+    "examples": [
+      "performing duties related to executive official, state government",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1112",
+      "unit_group": "1112.0500",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "government",
+      "occupation",
+      "executive",
+      "managers",
+      "official",
+      "service",
+      "public",
+      "sector",
+      "worker",
+      "civil",
+      "skill",
+      "state",
+      "under",
+      "code"
+    ],
+    "searchable_text": "executive official, state government official, state government worker civil service official, state government public sector executive official, state government is a managers occupation classified under nco code 1112.0500. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to executive official, state government following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 10.0
+    }
   },
   {
-    "nco_code": "8322.0100",
-    "title": "Driver, Light Motor Vehicle",
-    "description": "Driver, Light Motor Vehicle drives motor cars, jeeps, vans and other light motor vehicles to transport passengers or light cargo.",
-    "synonyms": ["car driver", "taxi driver", "ड्राइवर", "कार चालक", "वाहन चालक"],
-    "examples": ["drives car", "transports passengers", "vehicle operation", "road transport", "driving"]
+    "nco_code": "1112.0600",
+    "title": "Administrative and Executive Officials, Quasi",
+    "description": "Administrative and Executive Officials, Quasi is a managers occupation classified under NCO code 1112.0600. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "administrative and  officials, quasi worker",
+      "administrative and  officials, quasi"
+    ],
+    "examples": [
+      "performing duties related to administrative and executive officials, quasi",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1112",
+      "unit_group": "1112.0600",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "administrative",
+      "classified",
+      "government",
+      "occupation",
+      "executive",
+      "officials",
+      "managers",
+      "worker",
+      "quasi",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "administrative and executive officials, quasi administrative and  officials, quasi worker administrative and  officials, quasi administrative and executive officials, quasi is a managers occupation classified under nco code 1112.0600. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to administrative and executive officials, quasi following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
   },
   {
-    "nco_code": "5414.0300",
-    "title": "Security Guard",
-    "description": "Security Guard watches over and protects property, maintains order, and enforces regulations at establishments. Patrols assigned areas and checks doors, windows and gates.",
-    "synonyms": ["watchman", "security officer", "सिक्योरिटी गार्ड", "चौकीदार", "पहरेदार"],
-    "examples": ["guards property", "security patrol", "watches premises", "protection services", "surveillance"]
+    "nco_code": "1112.0700",
+    "title": "Administrative & Executive Officials, Quasi",
+    "description": "Administrative & Executive Officials, Quasi is a managers occupation classified under NCO code 1112.0700. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "administrative &  officials, quasi",
+      "administrative &  officials, quasi worker"
+    ],
+    "examples": [
+      "performing duties related to administrative & executive officials, quasi",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1112",
+      "unit_group": "1112.0700",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "administrative",
+      "classified",
+      "government",
+      "occupation",
+      "executive",
+      "officials",
+      "managers",
+      "worker",
+      "quasi",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "administrative & executive officials, quasi administrative &  officials, quasi administrative &  officials, quasi worker administrative & executive officials, quasi is a managers occupation classified under nco code 1112.0700. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to administrative & executive officials, quasi following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
   },
   {
-    "nco_code": "5120.0200",
-    "title": "Cook, General",
-    "description": "Cook, General prepares and cooks food in hotels, restaurants, clubs, canteens and other establishments. Plans menus, prepares and cooks foodstuffs.",
-    "synonyms": ["chef", "kitchen cook", "रसोइया", "बावर्ची", "खाना बनाने वाला"],
-    "examples": ["prepares food", "cooking", "kitchen work", "meal preparation", "culinary work"]
+    "nco_code": "1112.0800",
+    "title": "Administrative and Executive Officials, Local",
+    "description": "Administrative and Executive Officials, Local is a managers occupation classified under NCO code 1112.0800. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "administrative and  officials, local",
+      "administrative and  officials, local worker"
+    ],
+    "examples": [
+      "performing duties related to administrative and executive officials, local",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1112",
+      "unit_group": "1112.0800",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "administrative",
+      "classified",
+      "government",
+      "occupation",
+      "executive",
+      "officials",
+      "managers",
+      "worker",
+      "local",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "administrative and executive officials, local administrative and  officials, local administrative and  officials, local worker administrative and executive officials, local is a managers occupation classified under nco code 1112.0800. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to administrative and executive officials, local following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
   },
   {
-    "nco_code": "9112.0101",
-    "title": "Cleaner, Office",
-    "description": "Office Cleaner keeps offices, buildings and establishments clean and tidy. Sweeps, mops and polishes floors, dusts furniture, empties waste bins and ensures washrooms are clean.",
-    "synonyms": ["janitor", "office helper", "सफाई कर्मचारी", "साफ-सफाई वाला", "क्लीनर"],
-    "examples": ["cleans offices", "sweeping", "mopping", "dusting", "sanitation work"]
+    "nco_code": "1112.9900",
+    "title": "Senior Government Officials, Other",
+    "description": "Senior Government Officials, Other is a managers occupation classified under NCO code 1112.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "civil service",
+      "public sector"
+    ],
+    "examples": [
+      "performing duties related to senior government officials, other",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1112",
+      "unit_group": "1112.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "government",
+      "occupation",
+      "officials",
+      "managers",
+      "service",
+      "public",
+      "sector",
+      "senior",
+      "civil",
+      "other",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "senior government officials, other civil service public sector senior government officials, other is a managers occupation classified under nco code 1112.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to senior government officials, other following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 46,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1114.0100",
+    "title": "Political Worker",
+    "description": "Political Worker is a managers occupation classified under NCO code 1114.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "political"
+    ],
+    "examples": [
+      "performing duties related to political worker",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1114",
+      "unit_group": "1114.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "political",
+      "managers",
+      "position",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "political worker political political worker is a managers occupation classified under nco code 1114.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to political worker following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1114.0200",
+    "title": "Senior Officials of Employers, Workers and Other",
+    "description": "Senior Officials of Employers, Workers and Other is a managers occupation classified under NCO code 1114.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "senior officials of employers, s and other"
+    ],
+    "examples": [
+      "performing duties related to senior officials of employers, workers and other",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1114",
+      "unit_group": "1114.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "government",
+      "occupation",
+      "employers",
+      "officials",
+      "managers",
+      "workers",
+      "senior",
+      "other",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "senior officials of employers, workers and other senior officials of employers, s and other senior officials of employers, workers and other is a managers occupation classified under nco code 1114.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to senior officials of employers, workers and other following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1114.0300",
+    "title": "Director, Disaster Management Services",
+    "description": "Director, Disaster Management Services is a managers occupation classified under NCO code 1114.0300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, disaster management services",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1114",
+      "unit_group": "1114.0300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "management",
+      "occupation",
+      "director",
+      "disaster",
+      "managers",
+      "services",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, disaster management services  director, disaster management services is a managers occupation classified under nco code 1114.0300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, disaster management services following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1114.9900",
+    "title": "Senior Officials of Special Interest Organizations,",
+    "description": "Senior Officials of Special Interest Organizations, is a managers occupation classified under NCO code 1114.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to senior officials of special interest organizations,",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1114",
+      "unit_group": "1114.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "organizations",
+      "classified",
+      "government",
+      "occupation",
+      "officials",
+      "interest",
+      "managers",
+      "special",
+      "senior",
+      "under",
+      "code"
+    ],
+    "searchable_text": "senior officials of special interest organizations,  senior officials of special interest organizations, is a managers occupation classified under nco code 1114.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to senior officials of special interest organizations, following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.0100",
+    "title": "Working Proprietor, Electricity",
+    "description": "Working Proprietor, Electricity is a managers occupation classified under NCO code 1120.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, electricity",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "electricity",
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "working",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "working proprietor, electricity  working proprietor, electricity is a managers occupation classified under nco code 1120.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, electricity following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.0200",
+    "title": "Working Proprietor, Gas",
+    "description": "Working Proprietor, Gas is a managers occupation classified under NCO code 1120.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, gas",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "position",
+      "working",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "gas"
+    ],
+    "searchable_text": "working proprietor, gas  working proprietor, gas is a managers occupation classified under nco code 1120.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, gas following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.0300",
+    "title": "Working Proprietor, Water Supply",
+    "description": "Working Proprietor, Water Supply is a managers occupation classified under NCO code 1120.0300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, water supply",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.0300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "working",
+      "supply",
+      "skill",
+      "under",
+      "water",
+      "code"
+    ],
+    "searchable_text": "working proprietor, water supply  working proprietor, water supply is a managers occupation classified under nco code 1120.0300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, water supply following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.0400",
+    "title": "Director, Electricity",
+    "description": "Director, Electricity is a managers occupation classified under NCO code 1120.0400. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, electricity",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.0400",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "electricity",
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "position",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, electricity  director, electricity is a managers occupation classified under nco code 1120.0400. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, electricity following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.0500",
+    "title": "Director, Gas",
+    "description": "Director, Gas is a managers occupation classified under NCO code 1120.0500. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, gas",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.0500",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "director",
+      "involves",
+      "managers",
+      "position",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "gas"
+    ],
+    "searchable_text": "director, gas  director, gas is a managers occupation classified under nco code 1120.0500. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, gas following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.0600",
+    "title": "Director, Water Supply",
+    "description": "Director, Water Supply is a managers occupation classified under NCO code 1120.0600. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, water supply",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.0600",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "supply",
+      "level",
+      "skill",
+      "under",
+      "water",
+      "code"
+    ],
+    "searchable_text": "director, water supply  director, water supply is a managers occupation classified under nco code 1120.0600. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, water supply following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.0700",
+    "title": "Director, Bank",
+    "description": "Director, Bank is a managers occupation classified under NCO code 1120.0700. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, bank",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.0700",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "position",
+      "level",
+      "skill",
+      "under",
+      "bank",
+      "code"
+    ],
+    "searchable_text": "director, bank  director, bank is a managers occupation classified under nco code 1120.0700. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, bank following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.0800",
+    "title": "Director, Insurance",
+    "description": "Director, Insurance is a managers occupation classified under NCO code 1120.0800. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, insurance",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.0800",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "insurance",
+      "director",
+      "managers",
+      "position",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, insurance  director, insurance is a managers occupation classified under nco code 1120.0800. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, insurance following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.0900",
+    "title": "Working Proprietor, Mines/Proprietor, Mines",
+    "description": "Working Proprietor, Mines/Proprietor, Mines is a managers occupation classified under NCO code 1120.0900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, mines/proprietor, mines",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.0900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "working",
+      "mines",
+      "under",
+      "code"
+    ],
+    "searchable_text": "working proprietor, mines/proprietor, mines  working proprietor, mines/proprietor, mines is a managers occupation classified under nco code 1120.0900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, mines/proprietor, mines following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.1000",
+    "title": "Working Proprietor, Quarry/Proprietor, Quarry",
+    "description": "Working Proprietor, Quarry/Proprietor, Quarry is a managers occupation classified under NCO code 1120.1000. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, quarry/proprietor, quarry",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1000",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "working",
+      "quarry",
+      "under",
+      "code"
+    ],
+    "searchable_text": "working proprietor, quarry/proprietor, quarry  working proprietor, quarry/proprietor, quarry is a managers occupation classified under nco code 1120.1000. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, quarry/proprietor, quarry following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.1100",
+    "title": "Working Proprietor, Well Drilling/Proprietor,",
+    "description": "Working Proprietor, Well Drilling/Proprietor, is a managers occupation classified under NCO code 1120.1100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, well drilling/proprietor,",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "drilling",
+      "managers",
+      "working",
+      "under",
+      "code",
+      "well"
+    ],
+    "searchable_text": "working proprietor, well drilling/proprietor,  working proprietor, well drilling/proprietor, is a managers occupation classified under nco code 1120.1100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, well drilling/proprietor, following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.1200",
+    "title": "Working Proprietor, Construction/Proprietor,",
+    "description": "Working Proprietor, Construction/Proprietor, is a managers occupation classified under NCO code 1120.1200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, construction/proprietor,",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "construction",
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "working",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "working proprietor, construction/proprietor,  working proprietor, construction/proprietor, is a managers occupation classified under nco code 1120.1200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, construction/proprietor, following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.1300",
+    "title": "Director, Construction",
+    "description": "Director, Construction is a managers occupation classified under NCO code 1120.1300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, construction",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "construction",
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "position",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, construction  director, construction is a managers occupation classified under nco code 1120.1300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, construction following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.1400",
+    "title": "Executives Director, Mines",
+    "description": "Executives Director, Mines is a managers occupation classified under NCO code 1120.1400. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "s director, mines worker",
+      "s director, mines"
+    ],
+    "examples": [
+      "performing duties related to executives director, mines",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1400",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "executives",
+      "occupation",
+      "director",
+      "managers",
+      "worker",
+      "level",
+      "mines",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "executives director, mines s director, mines worker s director, mines executives director, mines is a managers occupation classified under nco code 1120.1400. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to executives director, mines following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 23,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.1500",
+    "title": "Director, Quarry",
+    "description": "Director, Quarry is a managers occupation classified under NCO code 1120.1500. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, quarry",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1500",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "position",
+      "quarry",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, quarry  director, quarry is a managers occupation classified under nco code 1120.1500. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, quarry following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.1600",
+    "title": "Director, Well Drilling",
+    "description": "Director, Well Drilling is a managers occupation classified under NCO code 1120.1600. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, well drilling",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1600",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "director",
+      "drilling",
+      "managers",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "well"
+    ],
+    "searchable_text": "director, well drilling  director, well drilling is a managers occupation classified under nco code 1120.1600. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, well drilling following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.1700",
+    "title": "Working Proprietor, Manufacturing/Proprietor,",
+    "description": "Working Proprietor, Manufacturing/Proprietor, is a managers occupation classified under NCO code 1120.1700. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, manufacturing/proprietor,",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1700",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "manufacturing",
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "working",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "working proprietor, manufacturing/proprietor,  working proprietor, manufacturing/proprietor, is a managers occupation classified under nco code 1120.1700. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, manufacturing/proprietor, following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.1800",
+    "title": "Director Manufacturing",
+    "description": "Director Manufacturing is a managers occupation classified under NCO code 1120.1800. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director manufacturing",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1800",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "manufacturing",
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "position",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director manufacturing  director manufacturing is a managers occupation classified under nco code 1120.1800. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director manufacturing following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.1900",
+    "title": "Working Proprietor, Wholesale Trade/Proprietor,",
+    "description": "Working Proprietor, Wholesale Trade/Proprietor, is a managers occupation classified under NCO code 1120.1900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, wholesale trade/proprietor,",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.1900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "wholesale",
+      "managers",
+      "working",
+      "trade",
+      "under",
+      "code"
+    ],
+    "searchable_text": "working proprietor, wholesale trade/proprietor,  working proprietor, wholesale trade/proprietor, is a managers occupation classified under nco code 1120.1900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, wholesale trade/proprietor, following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.2000",
+    "title": "Working Proprietor, Retail Trade/Proprietor,",
+    "description": "Working Proprietor, Retail Trade/Proprietor, is a managers occupation classified under NCO code 1120.2000. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, retail trade/proprietor,",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2000",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "working",
+      "retail",
+      "trade",
+      "under",
+      "code"
+    ],
+    "searchable_text": "working proprietor, retail trade/proprietor,  working proprietor, retail trade/proprietor, is a managers occupation classified under nco code 1120.2000. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, retail trade/proprietor, following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.2100",
+    "title": "Director, Wholesale Trade",
+    "description": "Director, Wholesale Trade is a managers occupation classified under NCO code 1120.2100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, wholesale trade",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "wholesale",
+      "director",
+      "managers",
+      "level",
+      "skill",
+      "trade",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, wholesale trade  director, wholesale trade is a managers occupation classified under nco code 1120.2100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, wholesale trade following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.2200",
+    "title": "Executives Director, Retail Trade",
+    "description": "Executives Director, Retail Trade is a managers occupation classified under NCO code 1120.2200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "s director, retail trade",
+      "s director, retail trade worker"
+    ],
+    "examples": [
+      "performing duties related to executives director, retail trade",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "executives",
+      "occupation",
+      "director",
+      "managers",
+      "retail",
+      "worker",
+      "skill",
+      "trade",
+      "under",
+      "code"
+    ],
+    "searchable_text": "executives director, retail trade s director, retail trade s director, retail trade worker executives director, retail trade is a managers occupation classified under nco code 1120.2200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to executives director, retail trade following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 25,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1120.2300",
+    "title": "Working Proprietor, Transport",
+    "description": "Working Proprietor, Transport is a managers occupation classified under NCO code 1120.2300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, transport",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "transport",
+      "managers",
+      "working",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "working proprietor, transport  working proprietor, transport is a managers occupation classified under nco code 1120.2300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, transport following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.2400",
+    "title": "Director, Transport",
+    "description": "Director, Transport is a managers occupation classified under NCO code 1120.2400. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, transport",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2400",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "transport",
+      "director",
+      "managers",
+      "position",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, transport  director, transport is a managers occupation classified under nco code 1120.2400. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, transport following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.2500",
+    "title": "Director, Communication",
+    "description": "Director, Communication is a managers occupation classified under NCO code 1120.2500. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, communication",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2500",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "communication",
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "position",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, communication  director, communication is a managers occupation classified under nco code 1120.2500. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, communication following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.2600",
+    "title": "Director, Airport",
+    "description": "Director, Airport is a managers occupation classified under NCO code 1120.2600. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, airport",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2600",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "position",
+      "airport",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, airport  director, airport is a managers occupation classified under nco code 1120.2600. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, airport following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.2700",
+    "title": "Working Proprietor, Storage and Warehousing",
+    "description": "Working Proprietor, Storage and Warehousing is a managers occupation classified under NCO code 1120.2700. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, storage and warehousing",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2700",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "warehousing",
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "storage",
+      "working",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "working proprietor, storage and warehousing  working proprietor, storage and warehousing is a managers occupation classified under nco code 1120.2700. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, storage and warehousing following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.2800",
+    "title": "Director, Storage and Warehousing",
+    "description": "Director, Storage and Warehousing is a managers occupation classified under NCO code 1120.2800. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, storage and warehousing",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2800",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "warehousing",
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "storage",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "director, storage and warehousing  director, storage and warehousing is a managers occupation classified under nco code 1120.2800. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, storage and warehousing following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.2900",
+    "title": "Working Proprietor, Lodging and Catering",
+    "description": "Working Proprietor, Lodging and Catering is a managers occupation classified under NCO code 1120.2900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, lodging and catering",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.2900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "catering",
+      "managers",
+      "lodging",
+      "working",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "working proprietor, lodging and catering  working proprietor, lodging and catering is a managers occupation classified under nco code 1120.2900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, lodging and catering following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.3000",
+    "title": "Director, Lodging and Catering Services/Director",
+    "description": "Director, Lodging and Catering Services/Director is a managers occupation classified under NCO code 1120.3000. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, lodging and catering services/director",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3000",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "catering",
+      "director",
+      "managers",
+      "services",
+      "lodging",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "director, lodging and catering services/director  director, lodging and catering services/director is a managers occupation classified under nco code 1120.3000. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, lodging and catering services/director following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.3100",
+    "title": "Executive Chef",
+    "description": "Executive Chef is a managers occupation classified under NCO code 1120.3100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "chef",
+      "chef worker"
+    ],
+    "examples": [
+      "performing duties related to executive chef",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "executive",
+      "managers",
+      "position",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "chef",
+      "code"
+    ],
+    "searchable_text": "executive chef chef chef worker executive chef is a managers occupation classified under nco code 1120.3100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to executive chef following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 48,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.3200",
+    "title": "Working Proprietor, Recreation and",
+    "description": "Working Proprietor, Recreation and is a managers occupation classified under NCO code 1120.3200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, recreation and",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "recreation",
+      "managers",
+      "working",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "working proprietor, recreation and  working proprietor, recreation and is a managers occupation classified under nco code 1120.3200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, recreation and following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.3300",
+    "title": "Director, Recreation and Entertainment",
+    "description": "Director, Recreation and Entertainment is a managers occupation classified under NCO code 1120.3300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, recreation and entertainment",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "entertainment",
+      "classified",
+      "occupation",
+      "recreation",
+      "director",
+      "managers",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "director, recreation and entertainment  director, recreation and entertainment is a managers occupation classified under nco code 1120.3300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, recreation and entertainment following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.3400",
+    "title": "Station Director, Radio/TV",
+    "description": "Station Director, Radio/TV is a managers occupation classified under NCO code 1120.3400. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to station director, radio/tv",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3400",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "station",
+      "level",
+      "radio",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "station director, radio/tv  station director, radio/tv is a managers occupation classified under nco code 1120.3400. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to station director, radio/tv following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.3401",
+    "title": "Advertising Actuary",
+    "description": "Advertising Actuary is a managers occupation classified under NCO code 1120.3401. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to advertising actuary",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3401",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "advertising",
+      "classified",
+      "occupation",
+      "managers",
+      "position",
+      "actuary",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "advertising actuary  advertising actuary is a managers occupation classified under nco code 1120.3401. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to advertising actuary following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 252,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.3500",
+    "title": "Working Proprietor, Other Services",
+    "description": "Working Proprietor, Other Services is a managers occupation classified under NCO code 1120.3500. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to working proprietor, other services",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3500",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "proprietor",
+      "managers",
+      "services",
+      "working",
+      "other",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "working proprietor, other services  working proprietor, other services is a managers occupation classified under nco code 1120.3500. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to working proprietor, other services following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1120.3600",
+    "title": "Director, Other Services",
+    "description": "Director, Other Services is a managers occupation classified under NCO code 1120.3600. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, other services",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3600",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "services",
+      "level",
+      "other",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "director, other services  director, other services is a managers occupation classified under nco code 1120.3600. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, other services following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.3700",
+    "title": "Director, Museum/Zoo",
+    "description": "Director, Museum/Zoo is a managers occupation classified under NCO code 1120.3700. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to director, museum/zoo",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3700",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "director",
+      "managers",
+      "position",
+      "museum",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "zoo"
+    ],
+    "searchable_text": "director, museum/zoo  director, museum/zoo is a managers occupation classified under nco code 1120.3700. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to director, museum/zoo following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.3800",
+    "title": "Chief Librarian",
+    "description": "Chief Librarian is a managers occupation classified under NCO code 1120.3800. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to chief librarian",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3800",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "librarian",
+      "managers",
+      "position",
+      "chief",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "chief librarian  chief librarian is a managers occupation classified under nco code 1120.3800. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to chief librarian following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.3900",
+    "title": "Principal, College",
+    "description": "Principal, College is a managers occupation classified under NCO code 1120.3900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to principal, college",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.3900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "principal",
+      "managers",
+      "position",
+      "college",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "principal, college  principal, college is a managers occupation classified under nco code 1120.3900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to principal, college following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1120.9900",
+    "title": "Managing Directors and Chief Executives, Others",
+    "description": "Managing Directors and Chief Executives, Others is a managers occupation classified under NCO code 1120.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "managing directors and chief s, others worker",
+      "managing directors and chief s, others"
+    ],
+    "examples": [
+      "performing duties related to managing directors and chief executives, others",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1120",
+      "unit_group": "1120.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "executives",
+      "occupation",
+      "directors",
+      "managers",
+      "managing",
+      "others",
+      "worker",
+      "chief",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "managing directors and chief executives, others managing directors and chief s, others worker managing directors and chief s, others managing directors and chief executives, others is a managers occupation classified under nco code 1120.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to managing directors and chief executives, others following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1211.0100",
+    "title": "General Manager, Bank",
+    "description": "General Manager, Bank is a managers occupation classified under NCO code 1211.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "general , bank worker",
+      "general , bank"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1211",
+      "unit_group": "1211.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "general",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "bank",
+      "code"
+    ],
+    "searchable_text": "general manager, bank general , bank worker general , bank general manager, bank is a managers occupation classified under nco code 1211.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1211.0200",
+    "title": "General Manager, Insurance",
+    "description": "General Manager, Insurance is a managers occupation classified under NCO code 1211.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "general , insurance worker",
+      "general , insurance"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1211",
+      "unit_group": "1211.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "insurance",
+      "managers",
+      "general",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "general manager, insurance general , insurance worker general , insurance general manager, insurance is a managers occupation classified under nco code 1211.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1211.0300",
+    "title": "Purser, Ship",
+    "description": "Purser, Ship is a managers occupation classified under NCO code 1211.0300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to purser, ship",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1211",
+      "unit_group": "1211.0300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "position",
+      "purser",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "ship"
+    ],
+    "searchable_text": "purser, ship  purser, ship is a managers occupation classified under nco code 1211.0300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to purser, ship following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1211.9900",
+    "title": "Finance Managers, Others",
+    "description": "Finance Managers, Others is a managers occupation classified under NCO code 1211.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "finance s, others",
+      "finance s, others worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1211",
+      "unit_group": "1211.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "finance",
+      "others",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "finance managers, others finance s, others finance s, others worker finance managers, others is a managers occupation classified under nco code 1211.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1212.0100",
+    "title": "Personnel Manager",
+    "description": "Personnel Manager is a managers occupation classified under NCO code 1212.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "personnel worker",
+      "personnel"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1212",
+      "unit_group": "1212.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "personnel",
+      "managers",
+      "position",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "personnel manager personnel worker personnel personnel manager is a managers occupation classified under nco code 1212.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1212.9900",
+    "title": "Personnel and Industrial Relations Managers,",
+    "description": "Personnel and Industrial Relations Managers, is a managers occupation classified under NCO code 1212.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "personnel and industrial relations s, worker",
+      "personnel and industrial relations s,"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1212",
+      "unit_group": "1212.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "industrial",
+      "occupation",
+      "personnel",
+      "relations",
+      "managers",
+      "worker",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "personnel and industrial relations managers, personnel and industrial relations s, worker personnel and industrial relations s, personnel and industrial relations managers, is a managers occupation classified under nco code 1212.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 49,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1213.0100",
+    "title": "Manager, Automotive Service",
+    "description": "Manager, Automotive Service is a managers occupation classified under NCO code 1213.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", automotive service worker",
+      ", automotive service"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1213",
+      "unit_group": "1213.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "automotive",
+      "classified",
+      "occupation",
+      "managers",
+      "manager",
+      "service",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "manager, automotive service , automotive service worker , automotive service manager, automotive service is a managers occupation classified under nco code 1213.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1213.0101",
+    "title": "Quality Assurance Standards In-Charge",
+    "description": "Quality Assurance Standards In-Charge is a managers occupation classified under NCO code 1213.0101. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to quality assurance standards in-charge",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1213",
+      "unit_group": "1213.0101",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "assurance",
+      "standards",
+      "managers",
+      "quality",
+      "charge",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "quality assurance standards in-charge  quality assurance standards in-charge is a managers occupation classified under nco code 1213.0101. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to quality assurance standards in-charge following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1213.0200",
+    "title": "Manager, Automotive Service Station",
+    "description": "Manager, Automotive Service Station is a managers occupation classified under NCO code 1213.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", automotive service station",
+      ", automotive service station worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1213",
+      "unit_group": "1213.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "automotive",
+      "classified",
+      "occupation",
+      "managers",
+      "manager",
+      "service",
+      "station",
+      "worker",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "manager, automotive service station , automotive service station , automotive service station worker manager, automotive service station is a managers occupation classified under nco code 1213.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1213.0201",
+    "title": "Area Service Manager",
+    "description": "Area Service Manager is a managers occupation classified under NCO code 1213.0201. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "area service",
+      "area service worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1213",
+      "unit_group": "1213.0201",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "manager",
+      "service",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "area",
+      "code"
+    ],
+    "searchable_text": "area service manager area service area service worker area service manager is a managers occupation classified under nco code 1213.0201. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1213.0202",
+    "title": "Territory Service Manager",
+    "description": "Territory Service Manager is a managers occupation classified under NCO code 1213.0202. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "territory service worker",
+      "territory service"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1213",
+      "unit_group": "1213.0202",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "territory",
+      "managers",
+      "manager",
+      "service",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "territory service manager territory service worker territory service territory service manager is a managers occupation classified under nco code 1213.0202. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1213.9900",
+    "title": "Managers, Other Services",
+    "description": "Managers, Other Services is a managers occupation classified under NCO code 1213.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "s, other services",
+      "s, other services worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1213",
+      "unit_group": "1213.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "services",
+      "worker",
+      "level",
+      "other",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "managers, other services s, other services s, other services worker managers, other services is a managers occupation classified under nco code 1213.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1219.0100",
+    "title": "Manager, Import and Export",
+    "description": "Manager, Import and Export is a managers occupation classified under NCO code 1219.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", import and export worker",
+      ", import and export"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1219",
+      "unit_group": "1219.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "manager",
+      "export",
+      "import",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "manager, import and export , import and export worker , import and export manager, import and export is a managers occupation classified under nco code 1219.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1219.0101",
+    "title": "Export Manager",
+    "description": "Export Manager is a managers occupation classified under NCO code 1219.0101. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "export",
+      "export worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1219",
+      "unit_group": "1219.0101",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "position",
+      "manager",
+      "export",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "export manager export export worker export manager is a managers occupation classified under nco code 1219.0101. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1219.0200",
+    "title": "Manager, Health Club/Manager, Fitness",
+    "description": "Manager, Health Club/Manager, Fitness is a managers occupation classified under NCO code 1219.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", health club/, fitness worker",
+      ", health club/, fitness"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1219",
+      "unit_group": "1219.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "healthcare",
+      "occupation",
+      "managers",
+      "fitness",
+      "manager",
+      "health",
+      "worker",
+      "under",
+      "club",
+      "code"
+    ],
+    "searchable_text": "manager, health club/manager, fitness , health club/, fitness worker , health club/, fitness manager, health club/manager, fitness is a managers occupation classified under nco code 1219.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1221.0301",
+    "title": "Home Delivery Manager",
+    "description": "Home Delivery Manager is a managers occupation classified under NCO code 1221.0301. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "home delivery worker",
+      "home delivery"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1221",
+      "unit_group": "1221.0301",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "delivery",
+      "managers",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "home"
+    ],
+    "searchable_text": "home delivery manager home delivery worker home delivery home delivery manager is a managers occupation classified under nco code 1221.0301. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1221.9900",
+    "title": "Sales and Marketing Managers, Other",
+    "description": "Sales and Marketing Managers, Other is a managers occupation classified under NCO code 1221.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "sales and marketing s, other",
+      "sales and marketing s, other worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1221",
+      "unit_group": "1221.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "marketing",
+      "managers",
+      "worker",
+      "other",
+      "sales",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "sales and marketing managers, other sales and marketing s, other sales and marketing s, other worker sales and marketing managers, other is a managers occupation classified under nco code 1221.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1222.0100",
+    "title": "Manager, Advertising and Promotion",
+    "description": "Manager, Advertising and Promotion is a managers occupation classified under NCO code 1222.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", advertising and promotion",
+      ", advertising and promotion worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1222",
+      "unit_group": "1222.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "advertising",
+      "classified",
+      "occupation",
+      "promotion",
+      "managers",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "manager, advertising and promotion , advertising and promotion , advertising and promotion worker manager, advertising and promotion is a managers occupation classified under nco code 1222.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1222.0200",
+    "title": "Manager, Fashion/Fashion Manager",
+    "description": "Manager, Fashion/Fashion Manager is a managers occupation classified under NCO code 1222.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", fashion/fashion",
+      ", fashion/fashion worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1222",
+      "unit_group": "1222.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "fashion",
+      "manager",
+      "worker",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "manager, fashion/fashion manager , fashion/fashion , fashion/fashion worker manager, fashion/fashion manager is a managers occupation classified under nco code 1222.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1222.9900",
+    "title": "Advertising and Public Relations Department",
+    "description": "Advertising and Public Relations Department is a managers occupation classified under NCO code 1222.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to advertising and public relations department",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1222",
+      "unit_group": "1222.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "advertising",
+      "classified",
+      "department",
+      "government",
+      "occupation",
+      "relations",
+      "managers",
+      "public",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "advertising and public relations department  advertising and public relations department is a managers occupation classified under nco code 1222.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to advertising and public relations department following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1223.0101",
+    "title": "Manager Testing Facility",
+    "description": "Manager Testing Facility is a managers occupation classified under NCO code 1223.0101. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "testing facility",
+      "testing facility worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1223",
+      "unit_group": "1223.0101",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "facility",
+      "managers",
+      "manager",
+      "testing",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "manager testing facility testing facility testing facility worker manager testing facility is a managers occupation classified under nco code 1223.0101. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1223.0102",
+    "title": "Manager Material Testing",
+    "description": "Manager Material Testing is a managers occupation classified under NCO code 1223.0102. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "material testing",
+      "material testing worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1223",
+      "unit_group": "1223.0102",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "construction",
+      "classified",
+      "occupation",
+      "managers",
+      "material",
+      "manager",
+      "testing",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "manager material testing material testing material testing worker manager material testing is a managers occupation classified under nco code 1223.0102. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1223.0201",
+    "title": "Regional Sales",
+    "description": "Regional Sales is a managers occupation classified under NCO code 1223.0201. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [],
+    "examples": [
+      "performing duties related to regional sales",
+      "following standard operating procedures",
+      "maintaining quality standards",
+      "working with relevant tools and equipment"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1223",
+      "unit_group": "1223.0201",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "position",
+      "regional",
+      "level",
+      "sales",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "regional sales  regional sales is a managers occupation classified under nco code 1223.0201. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. performing duties related to regional sales following standard operating procedures maintaining quality standards working with relevant tools and equipment",
+    "metadata": {
+      "page_found": 347,
+      "extraction_method": "text_pattern",
+      "quality_score": 7.0
+    }
+  },
+  {
+    "nco_code": "1311.0100",
+    "title": "General Manager, Plantation",
+    "description": "General Manager, Plantation is a managers occupation classified under NCO code 1311.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "general , plantation",
+      "general , plantation worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "agriculture",
+      "classified",
+      "occupation",
+      "plantation",
+      "managers",
+      "general",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "general manager, plantation general , plantation general , plantation worker general manager, plantation is a managers occupation classified under nco code 1311.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.0200",
+    "title": "General Manager, Horticulture",
+    "description": "General Manager, Horticulture is a managers occupation classified under NCO code 1311.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "general , horticulture worker",
+      "general , horticulture"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "horticulture",
+      "classified",
+      "occupation",
+      "managers",
+      "general",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "general manager, horticulture general , horticulture worker general , horticulture general manager, horticulture is a managers occupation classified under nco code 1311.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.0300",
+    "title": "General Manager, Agricultural Farm",
+    "description": "General Manager, Agricultural Farm is a managers occupation classified under NCO code 1311.0300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "general , agricultural farm",
+      "general , agricultural farm worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "agricultural",
+      "agriculture",
+      "classified",
+      "occupation",
+      "managers",
+      "general",
+      "manager",
+      "worker",
+      "skill",
+      "under",
+      "code",
+      "farm"
+    ],
+    "searchable_text": "general manager, agricultural farm general , agricultural farm general , agricultural farm worker general manager, agricultural farm is a managers occupation classified under nco code 1311.0300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1311.0400",
+    "title": "Title Gardeners, Horticultural and Nursery Growers General Manager, Livestock Farm",
+    "description": "Title Gardeners, Horticultural and Nursery Growers General Manager, Livestock Farm is a managers occupation classified under NCO code 1311.0400. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "title gardeners, horticultural and nursery growers general , livestock farm worker",
+      "title gardeners, horticultural and nursery growers general , livestock farm"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0400",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "horticultural",
+      "agriculture",
+      "gardeners",
+      "livestock",
+      "managers",
+      "general",
+      "growers",
+      "manager",
+      "nursery",
+      "worker",
+      "title",
+      "farm",
+      "and"
+    ],
+    "searchable_text": "title gardeners, horticultural and nursery growers general manager, livestock farm title gardeners, horticultural and nursery growers general , livestock farm worker title gardeners, horticultural and nursery growers general , livestock farm title gardeners, horticultural and nursery growers general manager, livestock farm is a managers occupation classified under nco code 1311.0400. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 44,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1311.0500",
+    "title": "General Manager, Dairy Farm",
+    "description": "General Manager, Dairy Farm is a managers occupation classified under NCO code 1311.0500. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "general , dairy farm worker",
+      "general , dairy farm"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0500",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "agriculture",
+      "classified",
+      "occupation",
+      "managers",
+      "general",
+      "manager",
+      "worker",
+      "dairy",
+      "skill",
+      "under",
+      "code",
+      "farm"
+    ],
+    "searchable_text": "general manager, dairy farm general , dairy farm worker general , dairy farm general manager, dairy farm is a managers occupation classified under nco code 1311.0500. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.0600",
+    "title": "General Manager, Poultry",
+    "description": "General Manager, Poultry is a managers occupation classified under NCO code 1311.0600. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "general , poultry",
+      "general , poultry worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0600",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "general",
+      "manager",
+      "poultry",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "general manager, poultry general , poultry general , poultry worker general manager, poultry is a managers occupation classified under nco code 1311.0600. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 51,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.0700",
+    "title": "Manager, Agricultural Farm",
+    "description": "Manager, Agricultural Farm is a managers occupation classified under NCO code 1311.0700. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", agricultural farm",
+      ", agricultural farm worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0700",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "agricultural",
+      "agriculture",
+      "classified",
+      "occupation",
+      "managers",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "farm"
+    ],
+    "searchable_text": "manager, agricultural farm , agricultural farm , agricultural farm worker manager, agricultural farm is a managers occupation classified under nco code 1311.0700. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.0800",
+    "title": "Manager, Plantation",
+    "description": "Manager, Plantation is a managers occupation classified under NCO code 1311.0800. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", plantation",
+      ", plantation worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0800",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "agriculture",
+      "classified",
+      "occupation",
+      "plantation",
+      "managers",
+      "position",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "manager, plantation , plantation , plantation worker manager, plantation is a managers occupation classified under nco code 1311.0800. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.0900",
+    "title": "Manager, Nursery",
+    "description": "Manager, Nursery is a managers occupation classified under NCO code 1311.0900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", nursery worker",
+      ", nursery"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "position",
+      "manager",
+      "nursery",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "manager, nursery , nursery worker , nursery manager, nursery is a managers occupation classified under nco code 1311.0900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.0901",
+    "title": "Production Managers Rubber Nursery Manager",
+    "description": "Production Managers Rubber Nursery Manager is a managers occupation classified under NCO code 1311.0901. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "production s rubber nursery worker",
+      "production s rubber nursery"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.0901",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "manufacturing",
+      "classified",
+      "occupation",
+      "production",
+      "managers",
+      "manager",
+      "nursery",
+      "rubber",
+      "worker",
+      "under",
+      "code"
+    ],
+    "searchable_text": "production managers rubber nursery manager production s rubber nursery worker production s rubber nursery production managers rubber nursery manager is a managers occupation classified under nco code 1311.0901. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 47,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1311.1000",
+    "title": "Manager, Aerial Planting and Cultivation",
+    "description": "Manager, Aerial Planting and Cultivation is a managers occupation classified under NCO code 1311.1000. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", aerial planting and cultivation worker",
+      ", aerial planting and cultivation"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.1000",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "agriculture",
+      "cultivation",
+      "classified",
+      "occupation",
+      "managers",
+      "planting",
+      "manager",
+      "aerial",
+      "worker",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "manager, aerial planting and cultivation , aerial planting and cultivation worker , aerial planting and cultivation manager, aerial planting and cultivation is a managers occupation classified under nco code 1311.1000. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1311.1100",
+    "title": "Manager, Orchard",
+    "description": "Manager, Orchard is a managers occupation classified under NCO code 1311.1100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", orchard",
+      ", orchard worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.1100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "position",
+      "manager",
+      "orchard",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "manager, orchard , orchard , orchard worker manager, orchard is a managers occupation classified under nco code 1311.1100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.1200",
+    "title": "Manager, Horticulture Farm",
+    "description": "Manager, Horticulture Farm is a managers occupation classified under NCO code 1311.1200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", horticulture farm",
+      ", horticulture farm worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.1200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "horticulture",
+      "agriculture",
+      "classified",
+      "occupation",
+      "managers",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "farm"
+    ],
+    "searchable_text": "manager, horticulture farm , horticulture farm , horticulture farm worker manager, horticulture farm is a managers occupation classified under nco code 1311.1200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.1300",
+    "title": "Manager, Livestock Farm",
+    "description": "Manager, Livestock Farm is a managers occupation classified under NCO code 1311.1300. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", livestock farm",
+      ", livestock farm worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.1300",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "agriculture",
+      "classified",
+      "occupation",
+      "livestock",
+      "managers",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "farm"
+    ],
+    "searchable_text": "manager, livestock farm , livestock farm , livestock farm worker manager, livestock farm is a managers occupation classified under nco code 1311.1300. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.1400",
+    "title": "Manager, Dairy Farm",
+    "description": "Manager, Dairy Farm is a managers occupation classified under NCO code 1311.1400. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", dairy farm worker",
+      ", dairy farm"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.1400",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "agriculture",
+      "classified",
+      "occupation",
+      "managers",
+      "manager",
+      "worker",
+      "dairy",
+      "level",
+      "skill",
+      "under",
+      "code",
+      "farm"
+    ],
+    "searchable_text": "manager, dairy farm , dairy farm worker , dairy farm manager, dairy farm is a managers occupation classified under nco code 1311.1400. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1311.1500",
+    "title": "Title Agricultural and Forestry Manager, Poultry Farm Production Managers",
+    "description": "Title Agricultural and Forestry Manager, Poultry Farm Production Managers is a managers occupation classified under NCO code 1311.1500. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "title agricultural and forestry , poultry farm production s",
+      "title agricultural and forestry , poultry farm production s worker"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.1500",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "manufacturing",
+      "agricultural",
+      "agriculture",
+      "occupation",
+      "production",
+      "forestry",
+      "managers",
+      "manager",
+      "poultry",
+      "worker",
+      "title",
+      "farm",
+      "and"
+    ],
+    "searchable_text": "title agricultural and forestry manager, poultry farm production managers title agricultural and forestry , poultry farm production s title agricultural and forestry , poultry farm production s worker title agricultural and forestry manager, poultry farm production managers is a managers occupation classified under nco code 1311.1500. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 50,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1311.9900",
+    "title": "Agricultural and Forestry Production Managers,",
+    "description": "Agricultural and Forestry Production Managers, is a managers occupation classified under NCO code 1311.9900. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "agricultural and forestry production s, worker",
+      "agricultural and forestry production s,"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1311",
+      "unit_group": "1311.9900",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "manufacturing",
+      "agricultural",
+      "classified",
+      "occupation",
+      "production",
+      "forestry",
+      "managers",
+      "worker",
+      "skill",
+      "under",
+      "code",
+      "and"
+    ],
+    "searchable_text": "agricultural and forestry production managers, agricultural and forestry production s, worker agricultural and forestry production s, agricultural and forestry production managers, is a managers occupation classified under nco code 1311.9900. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 9.0
+    }
+  },
+  {
+    "nco_code": "1321.0100",
+    "title": "Manager, Electricity",
+    "description": "Manager, Electricity is a managers occupation classified under NCO code 1321.0100. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      ", electricity worker",
+      ", electricity"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1321",
+      "unit_group": "1321.0100",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "electricity",
+      "classified",
+      "occupation",
+      "managers",
+      "position",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "manager, electricity , electricity worker , electricity manager, electricity is a managers occupation classified under nco code 1321.0100. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
+  },
+  {
+    "nco_code": "1321.0200",
+    "title": "Terminal Manager",
+    "description": "Terminal Manager is a managers occupation classified under NCO code 1321.0200. This is a skill level 4 position. Involves planning, directing, and coordinating organizational activities.",
+    "synonyms": [
+      "terminal worker",
+      "terminal"
+    ],
+    "examples": [
+      "planning and organizing work activities",
+      "supervising team members and staff",
+      "making strategic decisions",
+      "managing budgets and resources"
+    ],
+    "hierarchy": {
+      "division": "1",
+      "division_name": "Managers",
+      "major_group": "1321",
+      "unit_group": "1321.0200",
+      "skill_level": "Skill Level 4"
+    },
+    "search_keywords": [
+      "classified",
+      "occupation",
+      "managers",
+      "position",
+      "terminal",
+      "manager",
+      "worker",
+      "level",
+      "skill",
+      "under",
+      "code"
+    ],
+    "searchable_text": "terminal manager terminal worker terminal terminal manager is a managers occupation classified under nco code 1321.0200. this is a skill level 4 position. involves planning, directing, and coordinating organizational activities. planning and organizing work activities supervising team members and staff making strategic decisions managing budgets and resources",
+    "metadata": {
+      "page_found": 52,
+      "extraction_method": "text_pattern",
+      "quality_score": 8.0
+    }
   }
 ]
