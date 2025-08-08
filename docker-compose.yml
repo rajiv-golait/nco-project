@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: ./backend
+    container_name: nco-api
+    environment:
+      EMBED_MODEL: intfloat/multilingual-e5-small
+      LOWCONF_SOFTMAX: "0.55"
+      LOWCONF_TOPSIM: "0.48"
+      ENABLE_TRANSLATION: "false"
+      CORS_ORIGINS: "http://localhost:3000"
+      ADMIN_TOKEN: "changeme"
+    volumes:
+      - ./backend/faiss_index:/app/faiss_index
+      - ./backend/logs:/app/logs
+    ports:
+      - "8000:8000"
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./frontend
+    container_name: nco-web
+    environment:
+      NEXT_PUBLIC_API_URL: "http://localhost:8000"
+    ports:
+      - "3000:3000"
+    command: ["npm", "run", "dev"]
+    depends_on:
+      - api

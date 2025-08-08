@@ -1,0 +1,253 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "num_occupations": 13,
+  "embedding_dim": 384,
+  "occupations": [
+    {
+      "nco_code": "7212.0100",
+      "title": "Welder, Gas",
+      "description": "Gas Welder joins metal parts by fusion welding process in which the edges of metals to be joined are heated to molten condition at temperature of around 3200 degree C by a gas flame.",
+      "synonyms": [
+        "gas welder",
+        "welding operator",
+        "fusion welder",
+        "गैस वेल्डर",
+        "वेल्डिंग ऑपरेटर"
+      ],
+      "examples": [
+        "joins metal parts",
+        "uses gas flame",
+        "fusion welding",
+        "metalwork",
+        "welding torch operator"
+      ]
+    },
+    {
+      "nco_code": "7231.0200",
+      "title": "Automotive Mechanic",
+      "description": "Automotive Mechanic repairs overhauls and services motor vehicles to keep them in good running condition. Examines vehicle to ascertain nature and location of defects either by running engine or driving vehicle on road.",
+      "synonyms": [
+        "car mechanic",
+        "automobile mechanic",
+        "motor mechanic",
+        "गाड़ी मैकेनिक",
+        "मोटर मैकेनिक"
+      ],
+      "examples": [
+        "repairs cars",
+        "engine maintenance",
+        "vehicle service",
+        "diagnoses car problems",
+        "auto repair"
+      ]
+    },
+    {
+      "nco_code": "7533.0101",
+      "title": "Tailor",
+      "description": "Tailor cuts, sews, alters, repairs garments like coats, suits, trousers, shirts and dresses according to customer specifications and measurements.",
+      "synonyms": [
+        "master tailor",
+        "dress maker",
+        "दर्जी",
+        "टेलर",
+        "कपड़े सिलने वाला"
+      ],
+      "examples": [
+        "stitches clothes",
+        "alters garments",
+        "takes measurements",
+        "sewing",
+        "custom clothing"
+      ]
+    },
+    {
+      "nco_code": "7411.0100",
+      "title": "Electrician General",
+      "description": "Electrician General installs, maintains and repairs electrical machinery equipment and fittings in factories, workshops power house, business and residential premises etc.",
+      "synonyms": [
+        "electrical fitter",
+        "wireman",
+        "इलेक्ट्रीशियन",
+        "बिजली मिस्त्री",
+        "वायरमैन"
+      ],
+      "examples": [
+        "electrical wiring",
+        "repairs electrical equipment",
+        "installs switches",
+        "power systems",
+        "electrical maintenance"
+      ]
+    },
+    {
+      "nco_code": "3221.0101",
+      "title": "Nurse, General",
+      "description": "Nurse, General provides nursing care to patients in hospital, nursing home or at home. Takes patient temperature, pulse, respiration and blood pressure, administers prescribed medicines.",
+      "synonyms": [
+        "staff nurse",
+        "registered nurse",
+        "नर्स",
+        "परिचारिका",
+        "सेविका"
+      ],
+      "examples": [
+        "patient care",
+        "administers medicine",
+        "medical assistance",
+        "healthcare",
+        "nursing duties"
+      ]
+    },
+    {
+      "nco_code": "4131.0100",
+      "title": "Data Entry Operator",
+      "description": "Data Entry Operator enters data into computer system from source documents using keyboard, optical scanner or data recorder. Verifies accuracy of data entered.",
+      "synonyms": [
+        "computer operator",
+        "data operator",
+        "डेटा एंट्री ऑपरेटर",
+        "कंप्यूटर ऑपरेटर"
+      ],
+      "examples": [
+        "types data",
+        "computer work",
+        "data input",
+        "keyboard operator",
+        "office work"
+      ]
+    },
+    {
+      "nco_code": "2330.0100",
+      "title": "Teacher, Primary School",
+      "description": "Teacher, Primary School teaches one or more subjects to students at primary level and develops their knowledge and understanding of subjects through classroom teaching.",
+      "synonyms": [
+        "elementary teacher",
+        "primary teacher",
+        "प्राथमिक शिक्षक",
+        "अध्यापक",
+        "टीचर"
+      ],
+      "examples": [
+        "teaches children",
+        "classroom teaching",
+        "primary education",
+        "lesson planning",
+        "student instruction"
+      ]
+    },
+    {
+      "nco_code": "9211.0100",
+      "title": "Farm Worker",
+      "description": "Farm Worker performs variety of tasks on farms such as planting, cultivating, harvesting crops, and feeding livestock under supervision.",
+      "synonyms": [
+        "agricultural worker",
+        "field worker",
+        "किसान",
+        "खेत मजदूर",
+        "कृषि श्रमिक"
+      ],
+      "examples": [
+        "harvests crops",
+        "plants seeds",
+        "farm labor",
+        "agriculture work",
+        "field work"
+      ]
+    },
+    {
+      "nco_code": "7115.0100",
+      "title": "Carpenter, General",
+      "description": "Carpenter, General makes, assembles, alters and repairs various types of wooden articles and structures such as doors, windows, furniture, roof trusses according to specifications.",
+      "synonyms": [
+        "wood worker",
+        "furniture maker",
+        "बढ़ई",
+        "काष्ठकार",
+        "लकड़ी मिस्त्री"
+      ],
+      "examples": [
+        "makes furniture",
+        "woodwork",
+        "builds cabinets",
+        "carpentry",
+        "wooden structures"
+      ]
+    },
+    {
+      "nco_code": "8322.0100",
+      "title": "Driver, Light Motor Vehicle",
+      "description": "Driver, Light Motor Vehicle drives motor cars, jeeps, vans and other light motor vehicles to transport passengers or light cargo.",
+      "synonyms": [
+        "car driver",
+        "taxi driver",
+        "ड्राइवर",
+        "कार चालक",
+        "वाहन चालक"
+      ],
+      "examples": [
+        "drives car",
+        "transports passengers",
+        "vehicle operation",
+        "road transport",
+        "driving"
+      ]
+    },
+    {
+      "nco_code": "5414.0300",
+      "title": "Security Guard",
+      "description": "Security Guard watches over and protects property, maintains order, and enforces regulations at establishments. Patrols assigned areas and checks doors, windows and gates.",
+      "synonyms": [
+        "watchman",
+        "security officer",
+        "सिक्योरिटी गार्ड",
+        "चौकीदार",
+        "पहरेदार"
+      ],
+      "examples": [
+        "guards property",
+        "security patrol",
+        "watches premises",
+        "protection services",
+        "surveillance"
+      ]
+    },
+    {
+      "nco_code": "5120.0200",
+      "title": "Cook, General",
+      "description": "Cook, General prepares and cooks food in hotels, restaurants, clubs, canteens and other establishments. Plans menus, prepares and cooks foodstuffs.",
+      "synonyms": [
+        "chef",
+        "kitchen cook",
+        "रसोइया",
+        "बावर्ची",
+        "खाना बनाने वाला"
+      ],
+      "examples": [
+        "prepares food",
+        "cooking",
+        "kitchen work",
+        "meal preparation",
+        "culinary work"
+      ]
+    },
+    {
+      "nco_code": "9112.0101",
+      "title": "Cleaner, Office",
+      "description": "Office Cleaner keeps offices, buildings and establishments clean and tidy. Sweeps, mops and polishes floors, dusts furniture, empties waste bins and ensures washrooms are clean.",
+      "synonyms": [
+        "janitor",
+        "office helper",
+        "सफाई कर्मचारी",
+        "साफ-सफाई वाला",
+        "क्लीनर"
+      ],
+      "examples": [
+        "cleans offices",
+        "sweeping",
+        "mopping",
+        "dusting",
+        "sanitation work"
+      ]
+    }
+  ]
+}
