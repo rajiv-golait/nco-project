@@ -11,9 +11,13 @@ from tqdm import tqdm
 
 def load_nco_data():
     """Load NCO data from JSON file."""
-    # Use the main processed dataset
+    # Try multiple paths depending on where script is run from
     data_files = [
-        Path("backend/nco_data.json")
+        Path("backend/nco_data.json"),      # From project root
+        Path("../backend/nco_data.json"),   # From embeddings/ directory
+        Path("nco_data.json"),              # If in backend directory
+        Path("backend/nco_data_full.json"), # Fallback to full dataset
+        Path("../backend/nco_data_full.json")
     ]
     
     for data_file in data_files:
@@ -74,9 +78,23 @@ def build_index(model_name="intfloat/multilingual-e5-small"):
     index = faiss.IndexFlatIP(dimension)
     index.add(embeddings)
     
-    # Save index and metadata
-    output_dir = Path("backend/faiss_index")
-    output_dir.mkdir(exist_ok=True)
+    # Save index and metadata - handle different run locations
+    output_paths = [
+        Path("backend/faiss_index"),    # From project root
+        Path("../backend/faiss_index")  # From embeddings/ directory
+    ]
+    
+    output_dir = None
+    for path in output_paths:
+        try:
+            path.mkdir(parents=True, exist_ok=True)
+            output_dir = path
+            break
+        except:
+            continue
+    
+    if output_dir is None:
+        raise RuntimeError("Could not create output directory")
     
     # Save FAISS index
     faiss.write_index(index, str(output_dir / "nco.index"))
