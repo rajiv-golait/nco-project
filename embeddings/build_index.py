@@ -11,10 +11,9 @@ from tqdm import tqdm
 
 def load_nco_data():
     """Load NCO data from JSON file."""
-    # Try full dataset first, fall back to sample
+    # Use the main processed dataset
     data_files = [
-        Path("backend/nco_data.json"),
-        Path("backend/nco_data.sample.json")
+        Path("backend/nco_data.json")
     ]
     
     for data_file in data_files:

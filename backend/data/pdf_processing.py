@@ -29,6 +29,7 @@ import os
 import json
 import argparse
 import logging
+import shutil
 from pathlib import Path
 from typing import List, Dict, Tuple, Optional
 
@@ -201,6 +202,18 @@ def quality_checks(records: List[Dict]) -> Dict:
         "short_descriptions": sorted(too_short)[:50],  # preview first 50
     }
 
+def cleanup_clean_directory(clean_dir: Path) -> None:
+    """
+    Clean up the clean directory after processing is complete.
+    Removes all files and the directory itself.
+    """
+    if clean_dir and clean_dir.exists():
+        try:
+            shutil.rmtree(clean_dir)
+            logging.info(f"Cleaned up temporary directory: {clean_dir}")
+        except Exception as e:
+            logging.warning(f"Failed to clean up {clean_dir}: {e}")
+
 def load_and_process(pdf_paths: List[Path], save_clean_dir: Optional[Path] = None) -> List[Dict]:
     all_records: List[Dict] = []
     for p in pdf_paths:
@@ -303,6 +316,9 @@ def main():
         json.dump(records, f, ensure_ascii=False, indent=2)
 
     logging.info(f"Database now contains {len(records)} unique records → {out_json}")
+    
+    # Clean up the clean directory after processing is complete
+    cleanup_clean_directory(save_clean_dir)
 
 if __name__ == "__main__":
     main()
