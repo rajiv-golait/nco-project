@@ -34,17 +34,21 @@ def create_passage(occupation):
     # Support both old 'code' and new 'nco_code' fields
     code_field = occupation.get("nco_code", occupation.get("code"))
     
+    # Prefer richer 'search_text' if present (already curated by ETL)
+    if occupation.get("search_text"):
+        return f"passage: {occupation['search_text']}"
+
     parts = [
         f"passage: {occupation['title']}",
-        occupation["description"]
+        occupation.get("description", "")
     ]
-    
+
     if occupation.get("synonyms"):
         parts.append(f"Synonyms: {', '.join(occupation['synonyms'])}")
-    
+
     if occupation.get("examples"):
         parts.append(f"Examples: {', '.join(occupation['examples'])}")
-    
+
     return " ".join(parts)
 
 

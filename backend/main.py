@@ -10,7 +10,7 @@ from typing import List, Optional, Dict, Any
 from contextlib import asynccontextmanager
 from collections import Counter, deque
 
-from fastapi import FastAPI, HTTPException, Request, Query, Depends
+from fastapi import FastAPI, HTTPException, Request, Query, Depends, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
@@ -24,6 +24,8 @@ from prometheus_fastapi_instrumentator import Instrumentator
 from inference import NCOEngine
 from utils.logs import read_logs_reverse, parse_log_line
 from security import SecurityHeadersMiddleware, RequestSizeLimitMiddleware
+from translation_service import TranslationService, MultilingualSynonymBank
+from voice_handler import VoiceHandler, VoiceInputRequest, VoiceInputResponse, get_voice_handler
 
 # Load environment variables
 load_dotenv()
@@ -42,8 +44,12 @@ GIT_SHA = os.getenv("GIT_SHA", "unknown")
 
 # Global state
 engine: Optional[NCOEngine] = None
+translation_service: Optional[TranslationService] = None
+synonym_bank: Optional[MultilingualSynonymBank] = None
+voice_handler: Optional[VoiceHandler] = None
 reindex_lock = asyncio.Lock()
 is_reindexing = False
+reindex_task: Optional[asyncio.Task] = None
 app_version = "1.0.0"
 
 # Ensure logs directory exists
@@ -92,6 +98,8 @@ class SearchResponse(BaseModel):
     low_confidence: bool
     language: str
     translated: bool
+    suggestions: Optional[List[str]] = None
+    alternatives: Optional[List[str]] = None
 
 
 class FeedbackRequest(BaseModel):
@@ -131,14 +139,33 @@ def require_admin(req: Request):
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup
-    global engine
+    global engine, translation_service, synonym_bank, voice_handler
     print(f"Loading NCO search engine with model: {EMBED_MODEL}")
-    engine = NCOEngine(model_name=EMBED_MODEL)
+    engine = NCOEngine(model_name=EMBED_MODEL, use_enhanced=True)
     print(f"Engine loaded with {engine.num_occupations} occupations")
+    
+    # Initialize translation service
+    translation_service = TranslationService(use_online=False)
+    print("Translation service initialized")
+    
+    # Initialize synonym bank
+    synonym_bank = MultilingualSynonymBank()
+    print("Synonym bank initialized")
+    
+    # Initialize voice handler
+    try:
+        voice_handler = get_voice_handler()
+        print("Voice handler initialized")
+    except Exception as e:
+        print(f"Voice handler initialization failed: {e}")
+        voice_handler = None
     
     yield
     # Shutdown
     engine = None
+    translation_service = None
+    synonym_bank = None
+    voice_handler = None
 
 
 app = FastAPI(
@@ -230,11 +257,31 @@ async def search(search_request: SearchRequest, request: Request):
     else:
         low_confidence = True
     
-    # Translation logic (stub for now)
+    # Translation and enhancement for low confidence
     translated = False
-    if low_confidence and ENABLE_TRANSLATION and language in ["hi", "bn", "mr"]:
-        # Stub: would translate query and search again
-        translated = True
+    suggestions = None
+    alternatives = None
+    
+    if low_confidence:
+        # Get query enhancements
+        enhanced = translation_service.enhance_low_confidence_query(search_request.query, language)
+        suggestions = enhanced['suggestions']
+        alternatives = enhanced['alternatives']
+        
+        # Try translation if enabled and not English
+        if ENABLE_TRANSLATION and language != 'en':
+            translated_query = translation_service.translate_query(search_request.query, language, 'en')
+            if translated_query != search_request.query:
+                # Search with translated query
+                translated_results = engine.search(translated_query, k=search_request.k)
+                if translated_results and translated_results[0]['score'] > top_score:
+                    results = translated_results
+                    translated = True
+                    # Recalculate low confidence
+                    top_result = results[0]
+                    top_score = top_result["score"]
+                    top_confidence = top_result["confidence"]
+                    low_confidence = top_score < LOWCONF_TOPSIM or top_confidence < LOWCONF_SOFTMAX
     
     # Log search
     search_log = {
@@ -276,7 +323,9 @@ async def search(search_request: SearchRequest, request: Request):
         results=search_results,
         low_confidence=low_confidence,
         language=language,
-        translated=translated
+        translated=translated,
+        suggestions=suggestions,
+        alternatives=alternatives
     )
 
 
@@ -316,11 +365,98 @@ async def submit_feedback(request: FeedbackRequest, req: Request):
     return {"status": "success"}
 
 
+@app.post("/voice/transcribe", response_model=VoiceInputResponse)
+@limiter.limit(rate_limit_search)
+async def transcribe_voice(voice_request: VoiceInputRequest, request: Request):
+    """Transcribe voice input to text."""
+    if not voice_handler:
+        raise HTTPException(
+            status_code=501, 
+            detail="Voice input not available. Install speech_recognition or whisper."
+        )
+    
+    try:
+        result = voice_handler.transcribe(
+            voice_request.audio_data,
+            voice_request.format,
+            voice_request.language
+        )
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Transcription failed: {e}")
+
+
+@app.post("/voice/search", response_model=SearchResponse)
+@limiter.limit(rate_limit_search)
+async def voice_search(voice_request: VoiceInputRequest, request: Request):
+    """Transcribe voice input and search for occupations."""
+    if not voice_handler:
+        raise HTTPException(
+            status_code=501,
+            detail="Voice input not available. Install speech_recognition or whisper."
+        )
+    
+    # Transcribe voice to text
+    try:
+        transcription = voice_handler.transcribe(
+            voice_request.audio_data,
+            voice_request.format,
+            voice_request.language
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Transcription failed: {e}")
+    
+    # Create search request from transcription
+    search_req = SearchRequest(
+        query=transcription.text,
+        k=5,
+        language=transcription.language
+    )
+    
+    # Perform search
+    return await search(search_req, request)
+
+
+@app.post("/voice/upload", response_model=VoiceInputResponse)
+@limiter.limit(rate_limit_search)
+async def upload_voice_file(
+    file: UploadFile = File(...),
+    language: Optional[str] = Query(None, description="Expected language (hi, bn, mr, en)"),
+    request: Request = None
+):
+    """Upload and transcribe an audio file."""
+    if not voice_handler:
+        raise HTTPException(
+            status_code=501,
+            detail="Voice input not available. Install speech_recognition or whisper."
+        )
+    
+    # Check file size (max 10MB)
+    content = await file.read()
+    if len(content) > 10 * 1024 * 1024:
+        raise HTTPException(status_code=413, detail="File too large. Maximum size is 10MB.")
+    
+    # Reset file pointer
+    await file.seek(0)
+    
+    try:
+        result = await voice_handler.process_audio_file(file, language)
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Transcription failed: {e}")
+
+
 @app.get("/admin/logs")
 @limiter.limit(rate_limit_admin)
 async def get_logs(
     request: Request,
-    type: str = Query("search", enum=["search", "feedback"]),
+    type: str = Query("search", enum=["search", "feedback", "audit"]),
     limit: int = Query(100, ge=1, le=1000),
     fields: Optional[str] = Query(None, enum=["basic", "full"]),
     _: None = Depends(require_admin)
@@ -449,6 +585,7 @@ async def update_synonyms(request: UpdateSynonymsRequest, http_request: Request 
     # Apply updates
     updated_count = 0
     invalid_codes = []
+    audit_changes = []
     
     for update in request.updates:
         if update.nco_code not in code_map:
@@ -457,31 +594,57 @@ async def update_synonyms(request: UpdateSynonymsRequest, http_request: Request 
         
         occ = code_map[update.nco_code]
         
+        # Track changes for audit
+        changes = {"nco_code": update.nco_code, "added": [], "removed": []}
+        
         # Add synonyms
         if update.add:
             current_synonyms = set(occ.get("synonyms", []))
-            current_synonyms.update(update.add)
-            occ["synonyms"] = list(current_synonyms)
-            updated_count += 1
+            new_synonyms = set(update.add) - current_synonyms
+            if new_synonyms:
+                current_synonyms.update(new_synonyms)
+                occ["synonyms"] = list(current_synonyms)
+                changes["added"] = list(new_synonyms)
+                updated_count += 1
         
         # Remove synonyms
         if update.remove:
             current_synonyms = set(occ.get("synonyms", []))
-            for syn in update.remove:
-                current_synonyms.discard(syn)
-            occ["synonyms"] = list(current_synonyms)
-            updated_count += 1
+            removed_synonyms = set(update.remove) & current_synonyms
+            if removed_synonyms:
+                for syn in removed_synonyms:
+                    current_synonyms.discard(syn)
+                occ["synonyms"] = list(current_synonyms)
+                changes["removed"] = list(removed_synonyms)
+                updated_count += 1
+        
+        if changes["added"] or changes["removed"]:
+            audit_changes.append(changes)
     
     # Save updated data
     if updated_count > 0:
         with open(data_file, "w", encoding="utf-8") as f:
             json.dump(occupations, f, ensure_ascii=False, indent=2)
+        
+        # Log audit trail
+        audit_log = {
+            "timestamp": datetime.utcnow().isoformat(),
+            "action": "update_synonyms",
+            "user": http_request.headers.get("x-user-id", "admin"),
+            "changes": audit_changes,
+            "updated_count": updated_count
+        }
+        
+        audit_file = logs_dir / "audit.jsonl"
+        with open(audit_file, "ab") as f:
+            f.write(orjson.dumps(audit_log) + b"\n")
     
     return {
         "ok": True,
         "updated": updated_count,
         "invalid_codes": invalid_codes,
-        "requires_reindex": updated_count > 0
+        "requires_reindex": updated_count > 0,
+        "changes": audit_changes
     }
 
 

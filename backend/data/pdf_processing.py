@@ -171,6 +171,32 @@ def segment_records(clean_text: str, source_label: str) -> List[Dict]:
         description = " ".join(ln.strip() for ln in desc_lines if ln.strip())
         description = normalize_whitespace(description)
 
+        # Derive hierarchy codes from the 8-character NCO code (####.####)
+        # Pad the code in case PDF parsing produced shorter codes (e.g., 4 digits only)
+        padded_code = (code.replace(".", "") + "0" * 8)[:8]
+        division_code = padded_code[:2]
+        sub_division_code = padded_code[:3]
+        minor_group_code = padded_code[:4]
+        unit_group_code = padded_code[:6]
+
+        # Build hierarchy dictionary (names are left None for now – will be filled during Excel ETL)
+        hierarchy = {
+            "division_code": division_code,
+            "division_name": None,
+            "sub_division_code": sub_division_code,
+            "sub_division_name": None,
+            "minor_group_code": minor_group_code,
+            "minor_group_name": None,
+            "unit_group_code": unit_group_code,
+            "unit_group_name": None,
+        }
+
+        # Create comprehensive search text to be used by embedding pipeline if desired
+        search_text_parts = [title, description]
+        if hierarchy.get("division_name"):
+            search_text_parts.append(hierarchy["division_name"])
+        search_text = "\n".join(filter(None, search_text_parts))
+
         record = {
             "nco_code": code,
             "title": normalize_whitespace(title),
@@ -178,6 +204,16 @@ def segment_records(clean_text: str, source_label: str) -> List[Dict]:
             "synonyms": [],
             "examples": [],
             "source": source_label,
+            # Extra fields utilised by downstream components
+            "hierarchy": hierarchy,
+            "breadcrumb": [
+                hierarchy["division_name"] or hierarchy["division_code"],
+                hierarchy["sub_division_name"] or hierarchy["sub_division_code"],
+                hierarchy["minor_group_name"] or hierarchy["minor_group_code"],
+                hierarchy["unit_group_name"] or hierarchy["unit_group_code"],
+                title
+            ],
+            "search_text": search_text,
         }
         records.append(record)
 
@@ -243,6 +279,99 @@ def load_and_process(pdf_paths: List[Path], save_clean_dir: Optional[Path] = Non
     stats = quality_checks(merged)
     logging.info(f"Quality: {json.dumps(stats, indent=2)}")
     return merged
+
+# -----------------------------------------------------------------------------
+# Excel extraction helpers (Volume-I & II)
+# -----------------------------------------------------------------------------
+
+try:
+    import pandas as pd  # type: ignore
+except ImportError:
+    pd = None  # Graceful degradation – function will raise if used without pandas
+
+class ExcelExtractor:
+    """Extract NCO hierarchy & occupation details from MoSPI Excel sheets.
+
+    This implementation keeps logic in existing file to avoid creating a new one.
+    It expects two Excel workbooks:
+      • volume1_path – mapping / hierarchy (Division, Sub-Division, Minor etc.)
+      • volume2_path – detailed occupation descriptions
+    """
+    def __init__(self):
+        if pd is None:
+            raise ImportError("pandas is required for Excel extraction. Install via pip install pandas openpyxl");
+
+    def extract(self, volume1_path: str, volume2_path: str) -> List[Dict]:
+        mapping_df = pd.read_excel(volume1_path)
+        details_df = pd.read_excel(volume2_path)
+
+        # Build quick lookup dicts keyed by code prefixes
+        name_lookup = {}
+        for _, row in mapping_df.iterrows():
+            code = str(row.get("NCO_2015_Code", row.get("NCO_Code", ""))).zfill(8)
+            if not code:
+                continue
+            name_lookup[code[:2]] = row.get("Division", row.get("Division_Name")) or name_lookup.get(code[:2])
+            name_lookup[code[:3]] = row.get("Sub_Division_Name", row.get("SubDivision")) or name_lookup.get(code[:3])
+            name_lookup[code[:4]] = row.get("Minor_Group_Name", row.get("MinorGroup")) or name_lookup.get(code[:4])
+            name_lookup[code[:6]] = row.get("Unit_Group_Name", row.get("UnitGroup")) or name_lookup.get(code[:6])
+
+        occupations: List[Dict] = []
+        for _, row in details_df.iterrows():
+            nco_code = str(row.get("NCO_Code", row.get("NCO_2015"))).zfill(8)
+            if not nco_code or len(nco_code) < 8:
+                continue
+            title = row.get("Title", row.get("Occupation_Title", "")).strip()
+            description = row.get("Description", row.get("Job_Description", ""))
+
+            division_code = nco_code[:2]
+            sub_div_code = nco_code[:3]
+            minor_code = nco_code[:4]
+            unit_code = nco_code[:6]
+
+            hierarchy = {
+                "division_code": division_code,
+                "division_name": name_lookup.get(division_code),
+                "sub_division_code": sub_div_code,
+                "sub_division_name": name_lookup.get(sub_div_code),
+                "minor_group_code": minor_code,
+                "minor_group_name": name_lookup.get(minor_code),
+                "unit_group_code": unit_code,
+                "unit_group_name": name_lookup.get(unit_code),
+            }
+
+            occupation = {
+                "nco_code": f"{nco_code[:4]}.{nco_code[4:]}",  # format 8-digit to ####.####
+                "title": title,
+                "description": description,
+                "synonyms": [s.strip() for s in str(row.get("Alternative_Titles", "")).split(";") if s.strip()],
+                "examples": [e.strip() for e in str(row.get("Examples", "")).split(";") if e.strip()],
+                "hierarchy": hierarchy,
+                "breadcrumb": [
+                    hierarchy["division_name"] or hierarchy["division_code"],
+                    hierarchy["sub_division_name"] or hierarchy["sub_division_code"],
+                    hierarchy["minor_group_name"] or hierarchy["minor_group_code"],
+                    hierarchy["unit_group_name"] or hierarchy["unit_group_code"],
+                    title,
+                ],
+            }
+
+            # Build search_text for embedding
+            occupation["search_text"] = "\n".join([
+                title,
+                description or "",
+                f"Tasks: {row.get('Tasks', '')}",
+                f"Skills Required: {row.get('Skills', '')}",
+                f"Alternative Titles: {row.get('Alternative_Titles', '')}",
+            ]).strip()
+
+            occupations.append(occupation)
+
+        logging.info(f"Extracted {len(occupations)} occupations from Excel sheets")
+        return occupations
+
+
+# -----------------------------------------------------------------------------
 
 def main():
     parser = argparse.ArgumentParser(description="Extract NCO-2015 occupations from PDF/CSV files and append to a consolidated JSON database.")
